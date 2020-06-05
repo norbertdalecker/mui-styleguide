@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Typography, Divider } from '@material-ui/core';
 import { MuiAvatarGuide, MuiBadgeGuide, MuiChipGuide,
-         MuiListGuide, MuiTableGuide, MuiTooltipGuide } from 'components/MuiDataDisplay';
+         MuiListGuide, MuiTableGuide, MuiTooltipGuide } from '../MuiDataDisplay';
 
 export const MuiDataDisplayGuide = () => {
   return (

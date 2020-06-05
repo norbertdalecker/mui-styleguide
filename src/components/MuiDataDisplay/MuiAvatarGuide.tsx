@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Typography, Avatar, Box, makeStyles, Theme, createStyles } from '@material-ui/core';
-import { MuiInputContainer } from 'components/MuiInputs';
+import { MuiInputContainer } from '../MuiInputs';
 import { AvatarGroup } from '@material-ui/lab';
 import { Assignment } from '@material-ui/icons';
 import clsx from 'clsx';

@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Typography } from '@material-ui/core';
-import { MuiTypographyItem } from 'components/MuiTypography';
-import { MuiInputContainer } from 'components/MuiInputs';
+import { MuiTypographyItem } from '../MuiTypography';
+import { MuiInputContainer } from '../MuiInputs';
 export const MuiTypographyVariantsGuide = () => {
   return (
     <>

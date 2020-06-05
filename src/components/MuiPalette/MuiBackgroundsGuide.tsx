@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Typography, Grid } from '@material-ui/core';
 import { useTheme, makeStyles } from '@material-ui/core/styles';
-import { MuiPaletteItem } from 'components/MuiPalette';
+import { MuiPaletteItem } from '../MuiPalette';
 
 const useStyles = makeStyles((theme) => ({
   group: {

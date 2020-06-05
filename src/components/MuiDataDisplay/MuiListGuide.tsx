@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Typography, List, ListItem, ListItemIcon, ListItemText, Divider, Collapse, ListItemAvatar, Avatar } from '@material-ui/core';
-import { MuiInputContainer } from 'components/MuiInputs';
+import { MuiInputContainer } from '../MuiInputs';
 import { Inbox, Drafts, StarBorder, ExpandLess, ExpandMore, Image, Work, BeachAccess } from '@material-ui/icons';
 export const MuiListGuide = () => {
   const [open, setOpen] = React.useState(true);

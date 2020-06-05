@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Typography, Divider } from '@material-ui/core';
-import { MuiColorsGuide, MuiBackgroundsGuide } from 'components/MuiPalette';
+import { MuiColorsGuide, MuiBackgroundsGuide } from '../MuiPalette';
 
 export const MuiPaletteGuide = () => {
   return (

@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Typography, Divider } from '@material-ui/core';
-import { MuiProgressGuide, MuiDialogGuide, MuiSnackBarGuide } from 'components/MuiFeedback';
+import { MuiProgressGuide, MuiDialogGuide, MuiSnackBarGuide } from '../MuiFeedback';
 
 export const MuiFeedbackGuide = () => {
   return (

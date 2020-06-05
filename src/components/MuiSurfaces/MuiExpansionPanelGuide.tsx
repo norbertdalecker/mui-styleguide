@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Typography, ExpansionPanel, ExpansionPanelSummary, ExpansionPanelDetails } from '@material-ui/core';
-import { MuiInputContainer } from 'components/MuiInputs';
+import { MuiInputContainer } from '../MuiInputs';
 import { ExpandMore } from '@material-ui/icons';
 export const MuiExpansionPanelGuide = () => {
   return (

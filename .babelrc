@@ -1,27 +1,14 @@
 {
   "presets": [
-          "@babel/typescript"
+    "@babel/typescript",
+    ["@babel/preset-env", {
+      "modules": false
+    }]
   ],
   "plugins": [
     ["@babel/plugin-syntax-dynamic-import"],
     ["@babel/plugin-transform-typescript",{
         allowNamespaces: true
       }],
-    ["@babel/plugin-transform-modules-commonjs", {
-      "allowTopLevelThis": true
-    }]
-  ],
-  "env": {
-    "development": {
-      "sourceMaps": "inline",
-      "presets": ["@babel/preset-env"]
-    },
-    "production": {
-      "sourceType": "unambiguous",
-      "presets": ["@babel/preset-env", {
-        "modules": false,
-        "chrome": "last 2 versions",
-        }],
-    },
-  },
+  ]
 }

@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Typography, Card, CardContent, CardActions, Button, CardHeader, Avatar, IconButton } from '@material-ui/core';
-import { MuiInputContainer } from 'components/MuiInputs';
+import { MuiInputContainer } from '../MuiInputs';
 import { MoreVert } from '@material-ui/icons';
 export const MuiCardGuide = () => {
   return (

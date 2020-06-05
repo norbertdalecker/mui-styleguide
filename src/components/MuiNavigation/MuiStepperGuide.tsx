@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Typography, Stepper, Step, StepLabel, Orientation } from '@material-ui/core';
-import { MuiInputContainer } from 'components/MuiInputs';
+import { MuiInputContainer } from '../MuiInputs';
 function getSteps() {
   return ['Step1', 'Step2', 'Step3', 'Step4', 'Step5'];
 }

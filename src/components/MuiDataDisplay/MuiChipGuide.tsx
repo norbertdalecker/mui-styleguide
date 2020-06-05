@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Typography, Chip, PropTypes, Avatar } from '@material-ui/core';
-import { MuiInputContainer } from 'components/MuiInputs';
+import { MuiInputContainer } from '../MuiInputs';
 export const MuiChipGuide = () => {
   return (
     <>

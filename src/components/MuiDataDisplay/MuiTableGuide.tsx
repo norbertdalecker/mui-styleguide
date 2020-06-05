@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Typography, Paper, TableContainer, Table, TableHead, TableRow, TableCell, TableBody } from '@material-ui/core';
-import { MuiInputContainer } from 'components/MuiInputs';
+import { MuiInputContainer } from '../MuiInputs';
 const createData = (name: string, calories: number, fat: number) => {
   return { name, calories, fat };
 }

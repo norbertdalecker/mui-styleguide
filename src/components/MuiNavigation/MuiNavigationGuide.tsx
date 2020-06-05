@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Typography, Divider } from '@material-ui/core';
 import { MuiBreadcrumbsGuide, MuiLinkGuide,
-          MuiStepperGuide, MuiTabsGuide } from 'components/MuiNavigation';
+          MuiStepperGuide, MuiTabsGuide } from '../MuiNavigation';
 
 export const MuiNavigationGuide = () => {
   return (

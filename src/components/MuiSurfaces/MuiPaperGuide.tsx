@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Typography, Paper, Theme, makeStyles, createStyles } from '@material-ui/core';
-import { MuiInputContainer } from 'components/MuiInputs';
+import { MuiInputContainer } from '../MuiInputs';
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {

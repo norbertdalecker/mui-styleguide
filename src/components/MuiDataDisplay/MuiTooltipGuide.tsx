@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Typography, Grid, Tooltip, Button } from '@material-ui/core';
-import { MuiInputContainer } from 'components/MuiInputs';
+import { MuiInputContainer } from '../MuiInputs';
 export const MuiTooltipGuide = () => {
   return (
     <>
